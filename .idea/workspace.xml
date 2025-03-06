@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b9650a5-30d6-42d7-bdb0-55c28c380804" name="変更" comment="" />
+    <list default="true" id="7b9650a5-30d6-42d7-bdb0-55c28c380804" name="変更" comment="Form.tsxを作ろう その2&#10;第2章 p40">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +16,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Ctyann"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Ctyann/React-Vite-TypeScript.git",
+    "accountId": "0c12ba0d-5cfe-4cc9-8250-0fa4add05e73"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 2
 }]]></component>
@@ -24,6 +42,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
@@ -36,6 +57,93 @@
       <option name="presentableId" value="Default" />
       <updated>1741271190614</updated>
     </task>
+    <task id="LOCAL-00001" summary="create React+Vite&#10;第2章 p18">
+      <option name="closed" value="true" />
+      <created>1741273178201</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1741273178201</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Zenn記事追加">
+      <option name="closed" value="true" />
+      <created>1741274469234</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1741274469234</updated>
+    </task>
+    <task id="LOCAL-00003" summary="srcフォルダのクリーンアップ&#10;第2章 p20">
+      <option name="closed" value="true" />
+      <created>1741274778283</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741274778283</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Reactを動かす&#10;第2章 p24">
+      <option name="closed" value="true" />
+      <created>1741274804229</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1741274804229</updated>
+    </task>
+    <task id="LOCAL-00005" summary="componentsフォルダの作成&#10;第2章 p26">
+      <option name="closed" value="true" />
+      <created>1741274825744</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1741274825744</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Title.tsxを作ろう&#10;第2章 p30">
+      <option name="closed" value="true" />
+      <created>1741274847781</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1741274847781</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Form.tsxを作ろう その1&#10;第2章 p37">
+      <option name="closed" value="true" />
+      <created>1741274868409</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1741274868409</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Form.tsxを作ろう その2&#10;第2章 p40">
+      <option name="closed" value="true" />
+      <created>1741274889139</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1741274889139</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="create React+Vite&#10;第2章 p18" />
+    <MESSAGE value="Zenn記事追加" />
+    <MESSAGE value="srcフォルダのクリーンアップ&#10;第2章 p20" />
+    <MESSAGE value="Reactを動かす&#10;第2章 p24" />
+    <MESSAGE value="componentsフォルダの作成&#10;第2章 p26" />
+    <MESSAGE value="Title.tsxを作ろう&#10;第2章 p30" />
+    <MESSAGE value="Form.tsxを作ろう その1&#10;第2章 p37" />
+    <MESSAGE value="Form.tsxを作ろう その2&#10;第2章 p40" />
+    <option name="LAST_COMMIT_MESSAGE" value="Form.tsxを作ろう その2&#10;第2章 p40" />
   </component>
 </project>
