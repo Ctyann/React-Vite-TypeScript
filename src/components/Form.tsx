@@ -5,14 +5,14 @@ type FormProps = {
 
 const Form = (props: FormProps) => {
   return (
-    <form>
+    <form onSubmit={props.getWeather}>
       <input
         type="text"
         name="city"
         placeholder="都市名"
         onChange={(e) => props.setCity(e.target.value)}
       />
-      <button type="submit" onClick={props.getWeather}>
+      <button type="submit">
         Get Weather
       </button>
     </form>
