@@ -4,7 +4,7 @@ import Form from "./components/Form";
 import Results from "./components/Results";
 import Loading from "./components/Loading";
 
-type ResultsState = {
+export type ResultsState = {
   country: string;
   cityName: string;
   temperature: string;
