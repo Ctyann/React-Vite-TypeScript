@@ -2,6 +2,7 @@ import { useState } from "react";
 import Title from "./components/Title";
 import Form from "./components/Form";
 import Results from "./components/Results";
+import Loading from "./components/Loading";
 
 type ResultsState = {
   country: string;
@@ -12,8 +13,8 @@ type ResultsState = {
 };
 
 const App = () => {
+  const [loading, setLoading] = useState<boolean>(false);
   const [city, setCity] = useState<string>("");
-
   const [results, setResults] = useState<ResultsState>({
     country: "",
     cityName: "",
@@ -24,6 +25,7 @@ const App = () => {
 
   const getWeather = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    setLoading(true);
     fetch(
       `http://api.weatherapi.com/v1/current.json?key=f24febf47d4343d98de155409250603&q=${city}&aqi=no`
     )
@@ -36,15 +38,18 @@ const App = () => {
           conditionText: data.current.condition.text,
           icon: data.current.condition.icon,
         });
-      });
+        setLoading(false);
+        setCity("")
+      })
+      .catch(() => alert("エラーが発生しました。ページをリロードして、もう一度入力してください。"));
   };
 
   return (
     <div className="wrapper">
       <div className="container">
         <Title />
-        <Form setCity={setCity} getWeather={getWeather} />
-        <Results results={results} />
+        <Form setCity={setCity} city={city} getWeather={getWeather} />
+        {loading ? <Loading/> : <Results results={results} />}
       </div>
     </div>
   );
